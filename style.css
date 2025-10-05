@@ -1,0 +1,56 @@
+/* --- Global Styles & Typography --- */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+    color: #343a40; /* Darker text for better contrast */
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 500;
+}
+
+/* --- Header Styling --- */
+header {
+    background-color: #004085; /* A professional blue */
+    color: #ffffff;
+}
+
+/* --- Main Content Sections --- */
+.page-section {
+    background-color: #ffffff; /* White background for sections */
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+    border: 1px solid #dee2e6;
+}
+
+.page-section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #004085;
+}
+
+/* --- Table Styling --- */
+/* Bootstrap classes will handle most of this, but we can add more */
+.table {
+    margin-top: 1rem;
+}
+
+.table th {
+    background-color: #004085;
+    color: white;
+    font-weight: bold;
+}
+
+.lecture-done {
+    background-color: #e9ecef;
+}
+
+/* --- Footer --- */
+footer {
+    border-top: 1px solid #dee2e6;
+    font-size: 0.9rem;
+}
